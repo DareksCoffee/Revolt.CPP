@@ -25,11 +25,6 @@ class Embed {
         int width;
         int height;
     } _image, _thumbnail;
-    struct Video {
-        std::string url;
-        int width;
-        int height;
-    } _video;
     struct Provider {
         std::string name;
         std::string url;
